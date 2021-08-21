@@ -19,7 +19,7 @@ Thus to facilitate both down-sampling in this architecture (<b>Figure 1</b>) and
 
 
 
-From the paper,  the <b>transition layers</b> used in the DenseNet architecture (<b>Figure 1</b>) and based on (<b>Figure 2</b>) consist of a <b>1x1 convolution</b> followed by a <b>2x2 average pooling layer</b> which reduce the number of feature-maps. 
+<a href="https://arxiv.org/abs/1608.06993">From the paper</a>,  the <b>transition layers</b> used in the DenseNet architecture (<b>Figure 1</b>) and based on (<b>Figure 2</b>) consist of a <b>1x1 convolution</b> followed by a <b>2x2 average pooling layer</b> which reduce the number of feature-maps. 
 
 Essentially the <b>1x1 conv</b> performs the <b>downsampling</b> from the <b>number of input features</b> to <b>number of output features</b>.
 
