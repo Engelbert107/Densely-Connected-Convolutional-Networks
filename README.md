@@ -15,4 +15,10 @@ Thus to facilitate both down-sampling in this architecture (<b>Figure 1</b>) and
 
 <img src="https://github.com/Engelbert107/Densely-Connected-Convolutional-Networks/blob/main/DeepDenseNet.png" width="1200" height="220">
 
+
+
+From the paper,  the <b>transition layers</b> used in the DenseNet architecture (<b>Figure 1</b>) and based on (<b>Figure 2</b>) consist of a <b>1x1 convolution</b> followed by a <b>2x2 average pooling layer</b> which reduce the number of feature-maps. 
+
+Essentially the <b>1x1 conv</b> performs the <b>downsampling</b> from the <b>number of input features</b> to <b>number of output features</b>.
+
 <img src="https://github.com/Engelbert107/Densely-Connected-Convolutional-Networks/blob/main/DenseNetForImageNet.png" width="1000" height="480">
