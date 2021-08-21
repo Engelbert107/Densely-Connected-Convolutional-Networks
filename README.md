@@ -1,5 +1,7 @@
 # Densely Connected Convolutional Networks
 
+<p> This is PyTorch implementation of the DenseNet architecture as described in <a href="https://arxiv.org/abs/1608.06993">Densely Connected Convolutional Networks</a> by <b>Gao Huang, Zhuang Liu, Laurens van der Maaten, Kilian Q. Weinberger</b>. </p>
+
 
 DenseNets with <b>L</b> layers has <b>L(L+1)/2</b> direct connections. They address this shortcoming by reducing the size of the modules and by introducing more connections between layers. In fact, the output of each layer flows directly as input to all subsequent layers of the same feature dimension as illustrated in their <b>Figure 1</b>. This increases the dependency between the layers and thus reduces redundancy.
 
