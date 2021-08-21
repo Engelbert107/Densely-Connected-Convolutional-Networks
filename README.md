@@ -24,3 +24,9 @@ Thus to facilitate both down-sampling in this architecture (<b>Figure 1</b>) and
 Essentially the <b>1x1 conv</b> performs the <b>downsampling</b> from the <b>number of input features</b> to <b>number of output features</b>.
 
 <img src="https://github.com/Engelbert107/Densely-Connected-Convolutional-Networks/blob/main/DenseNetForImageNet.png" width="1000" height="480">
+
+<h2>My DenseNet-BC</h2>
+
+For my DenseNet-BC with L = 100 number of layers, k = 12 growth rate, theta = 0.5, drop rate=0.2 and 10 number of classes I got this graph. That is for 40 epochs.
+
+<img src="https://github.com/Engelbert107/Densely-Connected-Convolutional-Networks/blob/main/training_error_plot.png" width="460" height="300">
