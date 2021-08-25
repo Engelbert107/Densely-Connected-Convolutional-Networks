@@ -25,11 +25,6 @@ Essentially the <b>1x1 conv</b> performs the <b>downsampling</b> from the <b>num
 
 <img src="https://github.com/Engelbert107/Densely-Connected-Convolutional-Networks/blob/main/DenseNetForImageNet.png" width="1000" height="480">
 
-<h2>DenseNet-BC</h2>
-
-For the DenseNet-BC with L = 100 number of layers, k = 12 growth rate (12 filters per layer), theta = 0.5 (compression factor), drop rate=0.2  and 10 number of classes I got this graph. That is for 40 epochs.
-
-<img src="https://github.com/Engelbert107/Densely-Connected-Convolutional-Networks/blob/main/training_error_plot.png" width="460" height="300">
 
 <h2>DenseNet121</h2>
 
